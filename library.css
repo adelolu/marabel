@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: logo;
+    src: url(fonts/Nickainley.ttf);
+ }
+ @font-face {
+    font-family: tex;
+    src: url(fonts/ShyFoundry\ Freeware\ EULA.pdf);
+ }
+ @font-face {
+    font-family: tex1;
+    src: url(fonts/James\ Fajardo.ttf);
+ }
+ @font-face {
+    font-family: love;
+    src: url(fonts/texgyrechorus-mediumitalic.otf);
+ }
+ @font-face {
+    font-family: font;
+    src: url(fonts/October\ Twilight.ttf);
+ }
+ @font-face {
+    font-family: type;
+    src: url(fonts/TrueType/SFCartoonistHand.ttf);
+ }
+ .foot{
+    width: 100%;
+    /* height: 250px; */
+    background-color: #900c3f; 
+    /* background-color: #5c2341; */
+
+}
+.foot-ul{
+    list-style: none;
+}
+.foot-list{
+    color: whitesmoke;
+}
+.foot-list:hover{
+    color: rgb(221, 199, 199);
+    text-decoration: none;
+    font-size: 32px;
+    transition: 0.5s;
+}
+ .lib{
+     font-family: type;
+     color: #843B62;
+     /* font-size: 50px; */
+ }
+ .acct{
+     font-family: link;
+     font-size: 30px;
+     color: #843B62;
+ }
+ .acct:hover{
+     text-decoration: none;
+     color: #742750;
+ }

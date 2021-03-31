@@ -1,0 +1,154 @@
+.back{
+    background-color: #26001b;
+    /* background-color: #37123C; */
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: logo;
+    src: url(fonts/Nickainley.ttf);
+ }
+ @font-face {
+    font-family: tex;
+    src: url(fonts/ShyFoundry\ Freeware\ EULA.pdf);
+ }
+ @font-face {
+    font-family: tex1;
+    src: url(fonts/James\ Fajardo.ttf);
+ }
+ @font-face {
+    font-family: love;
+    src: url(fonts/texgyrechorus-mediumitalic.otf);
+ }
+ @font-face {
+    font-family: font;
+    src: url(fonts/October\ Twilight.ttf);
+ }
+ @font-face {
+    font-family: link;
+    src: url(fonts/texgyrechorus-mediumitalic.otf);
+ }
+ .link{
+     font-family: link;
+     font-size: 20px;
+ }
+ .link1{
+    font-family: love;
+    font-size: 20px;
+}
+#home-pic{
+    position: relative;
+    width: 400px;
+    left: 200px;
+    top: 220px;
+}
+.logo{
+    font-family: logo;
+    font-size: 35px;
+}
+.heading{
+    font-family: link;
+    font-size: 35px;
+}
+#logo{
+    font-family: font;
+    margin-top: 200px;
+    font-size: 86px;
+    color: #810034cb;
+    /* color: #47026C; */
+}
+/* #motto{
+   width: 500px;
+} */
+.home{
+    width: 302px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.cars{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 240px;
+    padding: 0px;
+}
+.picks:hover{
+    z-index: 2;
+    transform: scale(1.1,1.1);
+}
+.picks{
+    width:auto;
+    height: 400px;
+}
+.sub{
+    font-family: link;
+    font-size: 30px;
+    font-family: 700;
+}
+.descri{
+    font-family: tex1;
+    font-size: 28px;
+}
+.flash{
+    border: none;
+}
+.cate{
+    font-family: link;
+    margin-bottom: 10px;
+    font-size: 20px;
+    /* font-weight: 700; */
+    transition: 1s;
+}
+.cate:hover{
+    font-family: link;
+    font-size: 22px;
+   box-shadow: 0px 0px 10px rgba(148, 146, 146, 0.856) ;
+   color: #810034;
+}
+.foot{
+    width: 100%;
+    /* height: 250px; */
+    /* background-color: #900c3fd2; */
+    background-color: #5c2341;
+}
+.foot-ul{
+    list-style: none;
+}
+.foot-list{
+    color: whitesmoke;
+}
+.foot-list:hover{
+    color: rgb(221, 199, 199);
+    text-decoration: none;
+    font-size: 32px;
+    transition: 0.5s;
+}
+ @media screen and (max-width: 768px){
+    #home-pic{
+        position: relative;
+        width: 300px;
+        left: 50px;
+        right: 0px;
+        top: 0px;
+    } 
+    
+    #logo{
+        font-family: font;
+        margin-top: 200px;
+        font-size: 66px;
+        /* font-weight: bolder; */
+        color: #810034;
+    }
+ }
+@media screen and (min-width: 768px){
+ .cardPd {
+    width: 50px;
+    margin: 5px;
+ }
+}

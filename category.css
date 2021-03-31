@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+}
+.c-cate{
+    font-family: love;
+    font-size: 30px;
+    color: #810034cb;
+}
+.c-cate:hover{
+    transition: 0.3s;
+    font-size: 33px;
+    color: #81003480;
+}
+#main {
+    width: 100%;
+    box-sizing: border-box;
+    height: 550px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+}
+#c-grene{
+    font-family: logo;
+    color:#810034c7 ;
+}
+.c_child {
+    width:auto;
+    height: 400px;
+    /* background-color: rebeccapurple; */
+    margin-bottom: 10px;
+    /* margin: 10px; */
+}
+/* .c-cars{
+    margin-bottom: 50px;
+    width: 240px;
+} */

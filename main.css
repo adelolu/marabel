@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: logo;
+    src: url(fonts/Nickainley.ttf);
+ }
+ @font-face {
+    font-family: tex;
+    src: url(fonts/ShyFoundry\ Freeware\ EULA.pdf);
+ }
+ @font-face {
+    font-family: tex1;
+    src: url(fonts/James\ Fajardo.ttf);
+ }
+ @font-face {
+    font-family: love;
+    src: url(fonts/texgyrechorus-mediumitalic.otf);
+ }
+ @font-face {
+    font-family: font;
+    src: url(fonts/October\ Twilight.ttf);
+ }
+ @font-face {
+    font-family: link;
+    src: url(fonts/texgyrechorus-mediumitalic.otf);
+ }

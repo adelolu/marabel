@@ -1,0 +1,214 @@
+.a-home{
+    padding: 50px ;
+    /* margin: 100px 0px; */
+    /* height: 500px; */
+    /* width: ; */
+}
+@font-face {
+    font-family: logo;
+    src: url(fonts/Nickainley.ttf);
+ }
+ @font-face {
+    font-family: tex;
+    src: url(fonts/ShyFoundry\ Freeware\ EULA.pdf);
+ }
+ @font-face {
+    font-family: tex1;
+    src: url(fonts/James\ Fajardo.ttf);
+ }
+ @font-face {
+    font-family: love;
+    src: url(fonts/texgyrechorus-mediumitalic.otf);
+ }
+ @font-face {
+    font-family: font;
+    src: url(fonts/October\ Twilight.ttf);
+ }
+ @font-face {
+    font-family: type;
+    src: url(fonts/TrueType/SFCartoonistHand.ttf);
+ }
+*{
+    box-sizing: border-box;
+}
+
+#sign,#log{
+    background-color: white;
+    box-shadow: 1px 2px 3px #900c3f;
+    height: 560px;
+    /* width: 200px; */
+    padding: 5px;
+    position: relative;
+}
+#sign{
+    border-radius: 20px 0 0 20px;
+    /* animation-name: left; */
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+#log{
+    border-radius: 0px 20px 20px 0px;
+    /* animation-name: right; */
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+#card1{
+    margin-top: 200px;
+    border: none;
+    background-color: transparent;
+    
+}
+
+#well{
+    color:#81003485 ;
+    font-family:font;
+    text-shadow: 0 3px 2px rgba(136, 34, 34, 0.466);
+    font-size: 42px;
+}
+#live, #up{
+    font-family: type;
+    color: silver;
+    font-size: 20px;
+}
+#card2{
+    border: none;
+    margin-top: 70px;
+    background-color: transparent;
+}
+#card3{
+    border: none;
+    margin-top: 10px;
+    background-color: transparent;
+    display: none;
+    
+}
+.back{
+    color: #810034cb;
+    font-family: link;
+}
+.back:hover{
+    color: #810034cb;
+    font-family: link;
+    text-decoration: none;
+}
+.login{
+    color:#810034cb;
+    font-family:love;
+    text-shadow: 0 3px 2px rgba(117, 32, 32, 0.466);
+}
+.for{
+    background-color: transparent;
+    color: #810034cb;
+    font-family: cursive;
+}
+.for::placeholder{
+    color: #810034cb;
+    font-family:cursive;
+}
+.for:focus{
+    box-shadow: none;
+    border: 1px solid rgb(99, 11, 99);
+    transform: translate(4px,4px);
+    color:#843B62 ;
+    box-shadow: 0 2px 5px rgba(233, 150, 122, 0.425);
+}
+.lana{
+    color: silver;
+    font-family: type;
+    font-size: 20px;
+    background-color: transparent;
+}
+.spe:hover, .low:hover{
+   box-shadow: none;
+   transform: translate(2px,2px);
+}
+.spe:hover, .low:hover,.spe1:hover, .low1:hover{
+    color: darkred;
+    box-shadow: none;
+    transform: translate(2px,2px);
+}
+#up{
+    font-style: italic;
+}
+.low, .low1{
+    color: silver;
+    font-size: 20px;
+    padding: 5px;
+}
+@media screen and (min-width: 568px){
+    #sign,#log{
+        background-color: white;
+        box-shadow: 1px 2px 3px #900c3f;
+        height: 560px;
+        padding: 20px;
+        position: relative;
+    }
+
+@keyframes right{
+0%{
+    top: 0px;
+    right: 0%;
+    opacity: 1;
+} 
+50%{
+    background-color: transparent;
+    opacity: 0.5;
+}
+100%{
+    top: 0px;
+    right: 50%;
+    /* opacity: 0.3; */
+    border-radius: 20px 0px 0px 20px;
+    /* background-color: slategray; */
+}
+}
+@keyframes left{
+    0%{
+        top: 0px;
+        left: 0%;
+    }
+    100%{
+        top: 0px;
+        left: 50%;
+        border-radius: 0px 20px 20px 0px;
+        margin-left: 5px;
+
+        /* background-color: slategray; */
+    }
+}
+@keyframes short{
+    0%{
+        top: 0px;
+        left: 50%;
+        /* opacity: 0.3; */
+        border-radius: 20px 0px 0px 20px;
+        /* background-color: slategray; */
+    }
+    
+   
+    100%{
+        top: 0px;
+        left: 0%;
+        opacity: 1;
+    } 
+   
+}
+ @keyframes tall{
+    0%{
+        top: 0px;
+        right: 50%;
+        border-radius: 0px 20px 20px 0px;
+    }
+    50%{
+        background-color: transparent;
+        opacity: 0.5;
+    }
+    100%{
+        top: 0px;
+        right: 0%;
+    }
+       
+}    
+}
